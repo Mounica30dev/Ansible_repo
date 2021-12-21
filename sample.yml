@@ -1,5 +1,7 @@
 ---
 - name: i want to install webserver 
-  apt:
-    name: apache2
-    state: prsent 
+  become: yes
+  tasks:
+    apt:
+      name: apache2
+      state: prsent 

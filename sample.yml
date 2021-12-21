@@ -4,6 +4,6 @@
   tasks:
 
 - name: i want to install webserver
-    apt:
-      name: apache2
-      state: prsent 
+  apt:
+    name: apache2
+    state: prsent 
